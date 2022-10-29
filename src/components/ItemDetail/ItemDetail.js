@@ -7,6 +7,8 @@ const ItemDetail = ({id, name, price, category, img, stock, description})=> {
         console.log(productToAdd);
     }
 
+    
+
     return (
         <div>
                 <img src={img} alt={name} style={{width: 200}}/>
